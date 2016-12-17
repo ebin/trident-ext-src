@@ -18,6 +18,8 @@ override_dh_auto_install:
 	umask 0022
 
 	# capture gopath
+	cd trident; make deps; cd ..
+	rm -rf trident/ext/_gopath/src/trident.li/trident
 	mkdir -p debian/trident-ext-src/usr/lib/go/
 	cp --preserve=timestamps -RL trident/ext/_gopath/* debian/trident-ext-src/usr/lib/go/
 
