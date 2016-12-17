@@ -1,0 +1,17 @@
+Source: trident-ext-src
+Section: net
+Priority: optional
+Maintainer: Trident Project <project@trident.li>
+Uploaders: Trident Project <project@trident.li>
+Build-Depends: debhelper (>> 9),
+               dh-golang,
+               golang-go (>> 1.6),
+Standards-Version: 3.9.6
+Homepage: https://trident.li
+Vcs-Browser: https://github.com/tridentli/trident-ext-src
+Vcs-Git: git://github.com/tridentli/trident-ext-src.git
+
+Package: trident-ext-src
+Architecture: all
+Description: Dep package for (trident)Trusted Information Exchange Toolkit
+

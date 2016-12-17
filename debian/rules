@@ -1,0 +1,28 @@
+#!/usr/bin/make -f
+
+# These rules are for the packages:
+#
+# trident-ext-src		= Package of trident deps. 
+
+# Uncomment this to turn on verbose mode.
+export DH_VERBOSE=1
+
+# Where we store our GOPATH
+export GOPATH=$(shell pwd)/ext/_gopath/
+
+%:
+	dh $@ --parallel --with systemd 
+
+override_dh_auto_install:
+	# Avoid weird permissions inside sbuild
+	umask 0022
+
+	# capture gopath
+	mkdir -p debian/trident-ext-src/usr/lib/go/
+	cp --preserve=timestamps -RL trident/ext/_gopath/* debian/trident-ext-src/usr/lib/go/
+
+override_dh_installinit:
+	dh_installinit --name "trident-ext-src"
+
+.PHONY: override_dh_auto_install override_dh_installinit
+
