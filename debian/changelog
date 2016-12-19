@@ -1,6 +1,5 @@
-trident-ext-src (0.1.0) UNRELEASED; urgency=medium
+trident-ext-src (0.1.2) UNRELEASED; urgency=medium
 
-  * Initial release. 
+  * Tagging for trident v1.4.2
 
- -- bapril <bapril@people.ops-trust.net>  Sat, 10 Dec 2016 11:03:58 -0500
-
+ -- root <root@trident.stagecraft.net>  Sun, 11 Dec 2016 04:21:37 -0500
