@@ -1,3 +1,7 @@
+trident-ext-src (0.1.4) stable; urgency=medium
+
+ -- Ben April <bapril@people.ops-trust.net>  Wed, 11 Jan 2017 09:29:50 -0500
+
 trident-ext-src (0.1.3) stable; urgency=medium
 
   * Tracking Trident 1.4.3
