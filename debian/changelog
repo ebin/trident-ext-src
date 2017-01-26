@@ -1,3 +1,10 @@
+trident-ext-src (0.1.5) stable; urgency=medium
+
+ * Trident 1.4.5
+ * Pitchfork 1.9.4
+
+ -- Ben April <bapril@ops-trust.net>  Wed, 25 Jan 2017 22:01:47 -0500
+
 trident-ext-src (0.1.4) stable; urgency=medium
 
  -- Ben April <bapril@people.ops-trust.net>  Wed, 11 Jan 2017 09:29:50 -0500
@@ -13,4 +20,3 @@ trident-ext-src (0.1.2) UNRELEASED; urgency=medium
   * Tagging for trident v1.4.2
 
  -- bapril <bapril@ops-trust.net>  Monday, 19 Dec 2016 04:21:37 -0500
-
