@@ -3,3 +3,7 @@ debian/trident-ext-src/
 debian/*.debhelper.log
 debian/*.debhelper
 debian/*.substvars
+*.deb
+*.changes
+*.dsc
+*.tar.xz
